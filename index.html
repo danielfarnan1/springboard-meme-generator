@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>GIVE ME THE MEMES!</h1>
+
+        <H3>Enter the information below and make a dank meme for yourself!</H3>
+
+        <form action="" class="form">
+            <div class="inputs">
+                <label for="picture">Image URL: </label>
+                <input class="inputField" type="url" name="picture" id="picture"
+                    placeholder="Enter the URL link for the background image?" required>
+            </div>
+            <div class="inputs">
+                <label for="topText">Top Text:</label>
+                <input class="inputField" type="text" name="topText" id="topText"
+                    placeholder="Enter the text you would like to use at the top of your meme:">
+            </div>
+            <div class="inputs">
+                <label for="bottomText">Bottom Text: </label>
+                <input class="inputField" type="text" name="bottomText" id="bottomText"
+                    placeholder="Enter the text you would like to use at the top of your meme:">
+            </div>
+            <button>Create Meme</button>
+        </form>
+    </div>
+    <div id="displayArea"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>

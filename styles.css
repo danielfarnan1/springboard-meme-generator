@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%;
+    border-radius: 50px;
+}
+
+h1 {
+    align-self: center;
+    font-weight: 100;
+}
+
+h3 {
+    align-self: center;
+    font-weight: 300;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    margin: 10px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+:placeholder-shown {
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+.inputField {
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+button {
+    width: 20%;
+    background-color: #53cae5;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0px 20px 0px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#displayArea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.memeContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.823);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7em;
+    background-color: rgba(0, 0, 0, 0.289);
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.hover:hover {
+    opacity: 1;
+}
+
+.newMeme {
+    display: flex;
+    align-self: flex-start;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.upperText {
+    text-align: center;
+    position: absolute;
+
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.lowerText {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
